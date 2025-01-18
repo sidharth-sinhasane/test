@@ -72,8 +72,8 @@ export const SupplierPage = ({setCurrentPage}) => {
     }
   };
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error}</div>;
+  // if (loading) return <div>Loading...</div>;
+  // if (error) return <div>Error: {error}</div>;
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
